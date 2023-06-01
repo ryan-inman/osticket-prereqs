@@ -69,32 +69,70 @@ Enable Internet Information Services (IIS) by selecting "Turn Windows features o
 </p>
 <br />
 
-Download and install Web Platform Installer (WebPI), which simplifies the installation of web applications and platform technologies.
+Download and install PHP Manager for IIS and Rewrite Module.
+<br />
+
+<p>
+Create the directory C:\PHP.
 </p>
 <br />
 
 <p>
-Download and install MySQL 5.5 database, PHP 5.6.31, and versions between PHP (x86) 7.0 and 7.3 using WebPI.
+Download PHP 7.3.8 and unzip the contents into C:\PHP.
 </p>
 <br />
 
 <p>
-Extract the osTicket files and copy the "upload" folder to "c:\inetpub\wwwroot". Rename the "upload" folder to "osTicket".
+Download and install VC_redist.x86.exe and MySQL5.5.62.
 </p>
 <br />
 
 <p>
-Restart IIS by going to Sites -> Default -> osTicket and clicking on Browse *:80.
+Launch MySQL to configure and set up credentials. 
 </p>
 <br />
 
 <p>
-Access the osTicket installer page through the browser window that opens and review the recommendations/prerequisites.
+Click Start, search for IIS and right click the application to run as administrator.
 </p>
 <br />
 
 <p>
-Go back to IIS and enable the required PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll) for osTicket.
+Click on PHP Manager, then "Register new PHP version" and select "php-cgi" in the C:\PHP folder we created earlier.
+</p>
+<br />
+
+<p>
+Click on the name of your server and restart it now.
+</p>
+<br />
+
+<p>
+Download osTicket v1.15.8.
+</p>
+<br />
+
+<p>
+Copy "upload" folder in osTicket into C:\inetpub\wwwroot. Rename it "osTicket" after.
+</p>
+<br />
+
+<p>
+Go back to IIS and restart the server again.
+<br />
+
+<p>
+Now in IIS, go to sites -> default -> osTicket. On the right side, click "Browse *80"
+</p>
+<br />
+
+<p>
+You should now see the osTicket installer page through the browser window that opens. Review the recommendations/prerequisites.
+</p>
+<br />
+
+<p>
+Go back to IIS -> Default -> osTicket, select PHP Manager and enable the required PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll) for osTicket.
 </p>
 <br />
 
@@ -114,22 +152,27 @@ Change the permissions of "ost-config.php" by right-clicking on it, selecting "P
 <br />
 
 <p>
-Continue with the osTicket installer in the browser window and fill in the required details on the form.
+Continue with the osTicket installer in the browser window and fill in the required details on the form up to the Database Settings. Write them down so you do not forget for later!
 </p>
 <br />
 
 <p>
-Download and install HeidiSQL using the provided defaults.
+Download and install HeidiSQL using the provided defaults. This will allow us to connect to the mySQL server and set up a database for osTicket to use. 
 </p>
 <br />
 
 <p>
-Open HeidiSQL and create a new session with the username "root" and password "Password1". Connect to the session.
+Open HeidiSQL and create a new session with the username and password you used when setting up the MySQL server. Connect to the session by selecting "Open".
 </p>
 <br />
 
 <p>
-Create a database called "osTicket" in HeidiSQL.
+Create a database called "osTicket" in HeidiSQL. You can do this by right-clicking Unnamed -> Create new -> Database
+</p>
+<br />
+
+<p>
+Go back to the osTicket Installer page and fill out the Database Settings then click "Install Now!"
 </p>
 <br />
 
@@ -139,12 +182,7 @@ Enter the database details (MySQL Username: root, MySQL Password: Password1) int
 <br />
 
 <p>
-Verify the successful installation of osTicket without any errors.
-</p>
-<br />
-
-<p>
-Choose between accessing the Admin login or the End User Portal for osTicket based on the provided links.
+Verify the successful installation of osTicket without any errors!
 </p>
 <br />
 
@@ -154,15 +192,16 @@ Clean up by deleting the "C:\inetpub\wwwroot\osTicket\setup" folder.
 <br />
 
 <p>
-Set the permissions of "C:\inetpub\wwwroot\osTicket\include\ost-config.php" to "Read" only.
+Set the permissions of "C:\inetpub\wwwroot\osTicket\include\ost-config.php" to "Read" only. Right-click "ost-config.php" -> Properties -> Security -> Advanced -> Everyone -> Edit
 </p>
 <br />
 
 <p>
-Login to the osTicket Admin Panel at [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php).
+Navigate to the help desk login page and sign in [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php) using the username and password you created earlier.
 </p>
 <br />
 
 <p>
 Congratulations on completing the lab!
 </p>
+<br />
