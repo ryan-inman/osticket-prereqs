@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -32,24 +28,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Go to Azure and create a Virtual Machine
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Click "Create New" under the Resource group name and name it "RG-osTicket". Fill out the rest of the settings as done in the pictures below.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 Connect to the Virtual Machine using Remote Desktop by copying and pasting the VM's public IP address into the Remote Desktop Connection window.
   
@@ -58,7 +45,7 @@ Connect to the Virtual Machine using Remote Desktop by copying and pasting the V
 <br />
 
 <p>
-Install the Web Platform Installer by searching for "Control Panel" and selecting "Uninstall a Program" under Programs.
+In the virtual machine, we will begin by installing the Web Platform Installer. Search for "Control Panel" and select "Uninstall a Program" under Programs.
 
 </p>
 <br />
@@ -69,7 +56,18 @@ Enable Internet Information Services (IIS) by selecting "Turn Windows features o
 </p>
 <br />
 
-Download and install PHP Manager for IIS and Rewrite Module.
+<p>
+Download and install PHP Manager for IIS.
+</p>  
+Link: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view
+</p>
+<br />
+
+<p>
+Download and install the Rewrite Module.
+</p>
+Link: https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view
+</p>
 <br />
 
 <p>
@@ -80,13 +78,25 @@ Create the directory C:\PHP.
 <p>
 Download PHP 7.3.8 and unzip the contents into C:\PHP.
 </p>
-<br />
-
-<p>
-Download and install VC_redist.x86.exe and MySQL5.5.62.
+Link: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view
 </p>
 <br />
 
+<p>
+Download and install VC_redist.x86.exe.
+</p>
+Link: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view
+</p>
+<br />
+
+<p>
+Download and install MySQL5.5.62.
+</p>
+Link: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view
+</p>
+<br />
+  
+  
 <p>
 Launch MySQL to configure and set up credentials. 
 </p>
