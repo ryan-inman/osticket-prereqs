@@ -57,16 +57,12 @@ Enable Internet Information Services (IIS) by selecting "Turn Windows features o
 <br />
 
 <p>
-Download and install PHP Manager for IIS.
-</p>  
-Link: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view
+Download and install <a href="https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view">PHP Manager</a> for IIS.
 </p>
 <br />
 
 <p>
-Download and install the Rewrite Module.
-</p>
-Link: https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view
+Download and install the <a href="https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view">Rewrite Module</a>.
 </p>
 <br />
 
@@ -76,23 +72,17 @@ Create the directory C:\PHP.
 <br />
 
 <p>
-Download PHP 7.3.8 and unzip the contents into C:\PHP.
-</p>
-Link: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view
+Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">PHP 7.3.8</a> and unzip the contents into C:\PHP.
 </p>
 <br />
 
 <p>
-Download and install VC_redist.x86.exe.
-</p>
-Link: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view
+Download and install <a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view">VC_redist.x86.exe</a>.
 </p>
 <br />
 
 <p>
-Download and install MySQL5.5.62.
-</p>
-Link: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view
+Download and install <a href="https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view">MySQL5.5.62</a>.
 </p>
 <br />
   
@@ -118,9 +108,7 @@ Click on the name of your server and restart it now.
 <br />
 
 <p>
-Download osTicket v1.15.8.
-</p>
-Link: https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=drive_link
+Download <a href="https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=drive_link">osTicket v1.15.8</a>.
 </p>
 <br />
 
@@ -169,9 +157,7 @@ Continue with the osTicket installer in the browser window and fill in the requi
 <br />
 
 <p>
-Download and install HeidiSQL using the provided defaults. This will allow us to connect to the mySQL server and set up a database for osTicket to use. 
-</p>
-Link: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit?usp=drive_link
+Download and install <a href="https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit?usp=drive_link">HeidiSQL</a> using the provided defaults. This will allow us to connect to the mySQL server and set up a database for osTicket to use. 
 </p>
 <br />
 
@@ -211,7 +197,7 @@ Set the permissions of "C:\inetpub\wwwroot\osTicket\include\ost-config.php" to "
 <br />
 
 <p>
-Navigate to the help desk login page and sign in [http://localhost/osTicket/scp/login.php] using the username and password you created earlier.
+Navigate to the help desk login page (http://localhost/osTicket/scp/login.php) and sign in using the username and password you created earlier.
 </p>
 <br />
 
