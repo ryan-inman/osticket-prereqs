@@ -120,10 +120,12 @@ Click on the name of your server and restart it now.
 <p>
 Download osTicket v1.15.8.
 </p>
+Link: https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=drive_link
+</p>
 <br />
 
 <p>
-Copy "upload" folder in osTicket into C:\inetpub\wwwroot. Rename it "osTicket" after.
+Extract and copy "upload" folder in osTicket into C:\inetpub\wwwroot. Rename it "osTicket" after.
 </p>
 <br />
 
@@ -169,6 +171,8 @@ Continue with the osTicket installer in the browser window and fill in the requi
 <p>
 Download and install HeidiSQL using the provided defaults. This will allow us to connect to the mySQL server and set up a database for osTicket to use. 
 </p>
+Link: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit?usp=drive_link
+</p>
 <br />
 
 <p>
@@ -207,11 +211,11 @@ Set the permissions of "C:\inetpub\wwwroot\osTicket\include\ost-config.php" to "
 <br />
 
 <p>
-Navigate to the help desk login page and sign in [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php) using the username and password you created earlier.
+Navigate to the help desk login page and sign in [http://localhost/osTicket/scp/login.php] using the username and password you created earlier.
 </p>
 <br />
 
 <p>
-Congratulations on completing the lab!
+Congratulations on completing the lab! We have successfully installed the open-source help desk ticketing system, osTicket!
 </p>
 <br />
