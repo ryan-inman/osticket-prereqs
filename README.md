@@ -203,6 +203,6 @@ Navigate to the help desk login page (http://localhost/osTicket/scp/login.php) a
 <br />
 
 <p>
-Congratulations on completing the lab! We have successfully installed the open-source help desk ticketing system, osTicket!
+Congratulations on completing part 1 of the osTicket lab! We have successfully installed the prerequisites and osTicket!
 </p>
 <br />
