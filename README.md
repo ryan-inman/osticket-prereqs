@@ -119,6 +119,7 @@ Extract and copy "upload" folder in osTicket into C:\inetpub\wwwroot. Rename it 
 
 <p>
 Go back to IIS and restart the server again.
+</p>
 <br />
 
 <p>
