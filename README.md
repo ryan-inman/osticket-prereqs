@@ -28,12 +28,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-Go to Azure and create a Virtual Machine
+Go to Azure and create a Virtual Machine.
+<p align="center"><img src="https://i.imgur.com/jM8Cuce.png" height="70%" width="70%" alt="image of creating vm"/> </p>
+<p align="center"><img src="https://i.imgur.com/aFVBRqa.png" height="70%" width="70%" alt="image of creating vm"/> </p>
 </p>
 <br />
 
 <p>
 Click "Create New" under the Resource group name and name it "RG-osTicket". Fill out the rest of the settings as done in the pictures below.
+<p align="center"><img src="https://i.imgur.com/OJgzTFW.png" height="70%" width="70%" alt="image of creating vm"/> </p>
+<p align="center"><img src="https://i.imgur.com/Ae9wOPE.png" height="70%" width="70%" alt="image of creating vm"/> </p>
+<p align="center"><img src="https://i.imgur.com/YaRKxGu.png" height="70%" width="70%" alt="image of creating vm"/> </p>
 </p>
 <br />
 
@@ -41,18 +46,19 @@ Click "Create New" under the Resource group name and name it "RG-osTicket". Fill
 Connect to the Virtual Machine using Remote Desktop by copying and pasting the VM's public IP address into the Remote Desktop Connection window.
   
   Note: Search on your local machine "Remote Desktop Connection" to find the Window
+<p align="center"><img src="https://i.imgur.com/hKMXpM1.png" height="70%" width="70%" alt="connecting to vm"/> </p>
+<p align="center"><img src="https://i.imgur.com/ppIxZNL.png" height="70%" width="70%" alt="connecting to vm"/> </p>
 </p>
 <br />
 
 <p>
 In the virtual machine, we will begin by installing the Web Platform Installer. Search for "Control Panel" and select "Uninstall a Program" under Programs.
-
+<p align="center"><img src="https://i.imgur.com/EQDat89.png" height="70%" width="70%" alt="installing web platform installer"/> </p>
 </p>
 <br />
 
 <p>
 Enable Internet Information Services (IIS) by selecting "Turn Windows features on or off" in the Control Panel and enabling IIS from the available services. Also make sure to select CGI and Common HTTP Features.
-
 </p>
 <br />
 
