@@ -59,9 +59,9 @@ In the virtual machine, we will begin by installing the Web Platform Installer. 
 
 <p>
 Enable Internet Information Services (IIS) by selecting "Turn Windows features on or off" in the Control Panel and enabling IIS from the available services. Also make sure to select CGI and Common HTTP Features.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/gKKvSad.png" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/PF7HKmG.png" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/OyFFTmW.png" height="70%" width="70%" alt="blank"/> </p>
 </p>
 <br />
 
