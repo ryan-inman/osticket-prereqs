@@ -59,213 +59,206 @@ In the virtual machine, we will begin by installing the Web Platform Installer. 
 
 <p>
 Enable Internet Information Services (IIS) by selecting "Turn Windows features on or off" in the Control Panel and enabling IIS from the available services. Also make sure to select CGI and Common HTTP Features.
-<p align="center"><img src="https://i.imgur.com/gKKvSad.png" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="https://i.imgur.com/PF7HKmG.png" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="https://i.imgur.com/OyFFTmW.png" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/gKKvSad.png" height="70%" width="70%" alt="enable iis"/> </p>
+<p align="center"><img src="https://i.imgur.com/PF7HKmG.png" height="70%" width="70%" alt="enable iis"/> </p>
+<p align="center"><img src="https://i.imgur.com/OyFFTmW.png" height="70%" width="70%" alt="enable iis"/> </p>
 </p>
 <br />
 
 <p>
 Download and install <a href="https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view">PHP Manager</a> for IIS.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/D7LxG6N.png" height="70%" width="70%" alt="download and install php manager"/> </p>
 </p>
 <br />
 
 <p>
 Download and install the <a href="https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view">Rewrite Module</a>.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/D3yypus.png" height="70%" width="70%" alt="download and install rewrite module"/> </p>
 </p>
 <br />
 
 <p>
 Create the directory C:\PHP.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/ztMRhGg.png" height="70%" width="70%" alt="create directory"/> </p>
 </p>
 <br />
 
 <p>
 Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">PHP 7.3.8</a> and unzip the contents into C:\PHP.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/udR9ME3.png" height="70%" width="70%" alt="download php"/> </p>
+<p align="center"><img src="https://i.imgur.com/pN2tsQV.png" height="70%" width="70%" alt="unzip contents"/> </p>
 </p>
 <br />
 
 <p>
 Download and install <a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view">VC_redist.x86.exe</a>.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/2T43bVV.png" height="70%" width="70%" alt="download and install vc"/> </p>
 </p>
 <br />
 
 <p>
 Download and install <a href="https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view">MySQL5.5.62</a>.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/mpnQ25Q.png" height="70%" width="70%" alt="download and install mysql"/> </p>
+<p align="center"><img src="https://i.imgur.com/rN9QtIM.png" height="70%" width="70%" alt="download and install mysql"/> </p>
+<p align="center"><img src="https://i.imgur.com/9JO0mdX.png" height="70%" width="70%" alt="download and install mysql"/> </p>
 </p>
 <br />
   
   
 <p>
 Launch MySQL to configure and set up credentials.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/JstuGUv.png" height="70%" width="70%" alt="launch mysql"/> </p>
+<p align="center"><img src="https://i.imgur.com/rDO0xOv.png" height="70%" width="70%" alt="launch mysql"/> </p>
+<p align="center"><img src="https://i.imgur.com/CMbX64P.png" height="70%" width="70%" alt="launch mysql"/> </p>
 </p>
 <br />
 
 <p>
 Click Start, search for IIS and right click the application to run as administrator.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/r6HRHhL.png" height="70%" width="70%" alt="search iis"/> </p>
 </p>
 <br />
 
 <p>
 Click on PHP Manager, then "Register new PHP version" and select "php-cgi" in the C:\PHP folder we created earlier.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="https://i.imgur.com/eo3XbQM.png" height="70%" width="70%" alt="register php"/> </p>
+<p align="center"><img src="https://i.imgur.com/rFGXCEP.png" height="70%" width="70%" alt="register php"/> </p>
+<p align="center"><img src="https://i.imgur.com/0PfpDMm.png" height="70%" width="70%" alt="blank"/> </p>
 </p>
 <br />
 
 <p>
 Click on the name of your server and restart it now.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="restart server"/> </p>
 </p>
 <br />
 
 <p>
 Download <a href="https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=drive_link">osTicket v1.15.8</a>.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="download osticket"/> </p>
 </p>
 <br />
 
 <p>
 Extract and copy "upload" folder in osTicket into C:\inetpub\wwwroot. Rename it "osTicket" after.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="extract upload folder"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="extract upload folder"/> </p>
 </p>
 <br />
 
 <p>
 Go back to IIS and restart the server again.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="restart server"/> </p>
 </p>
 <br />
 
 <p>
 Now in IIS, go to sites -> default -> osTicket. On the right side, click "Browse *80"
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="browse 80"/> </p>
 </p>
 <br />
 
 <p>
 You should now see the osTicket installer page through the browser window that opens. Review the recommendations/prerequisites.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="osticket installer page"/> </p>
 </p>
 <br />
 
 <p>
 Go back to IIS -> Default -> osTicket, select PHP Manager and enable the required PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll) for osTicket.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="enable php extensions"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="enable php extensions"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="enable php extensions"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="enable php extensions"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="enable php extensions"/> </p>
 </p>
 <br />
 
 <p>
 Refresh the osTicket site in the browser to see the changes after enabling the PHP extensions.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="refresh osticket"/> </p>
 </p>
 <br />
 
 <p>
 Rename "ost-sampleconfig.php" to "ost-config.php" in the directory "C:\inetpub\wwwroot\osTicket\include\".
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="rename ost sample config"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="rename ost sample config"/> </p>
 </p>
 <br />
 
 <p>
 Change the permissions of "ost-config.php" by right-clicking on it, selecting "Properties", navigating to the "Security" tab, clicking on the "Advanced" button, disabling inheritance, removing all inherited permissions, adding new permissions for everyone, and giving full control.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="change permissions"/> </p>
 </p>
 <br />
 
 <p>
 Continue with the osTicket installer in the browser window and fill in the required details on the form up to the Database Settings. Write them down so you do not forget for later!
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="osticket installer required details"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="osticket installer required details"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="osticket installer required details"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="osticket installer required details"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="osticket installer required details"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="osticket installer required details"/> </p>
 </p>
 <br />
 
 <p>
 Download and install <a href="https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit?usp=drive_link">HeidiSQL</a> using the provided defaults. This will allow us to connect to the mySQL server and set up a database for osTicket to use.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="download and install heidisql"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="download and install heidisql"/> </p>
 </p>
 <br />
 
 <p>
 Open HeidiSQL and create a new session with the username and password you used when setting up the MySQL server. Connect to the session by selecting "Open".
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="create new heidisql session"/> </p>
 </p>
 <br />
 
 <p>
 Create a database called "osTicket" in HeidiSQL. You can do this by right-clicking Unnamed -> Create new -> Database
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-</p>
-<br />
-
-<p>
-Go back to the osTicket Installer page and fill out the Database Settings then click "Install Now!"
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="create database"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="create database"/> </p>
 </p>
 <br />
 
 <p>
 Enter the database details (MySQL Username: root, MySQL Password: Password1) into the osTicket Installer and click "Install Now!".
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="database details"/> </p>
 </p>
 <br />
 
 <p>
 Verify the successful installation of osTicket without any errors!
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="successful osticket installation"/> </p>
 </p>
 <br />
 
 <p>
 Clean up by deleting the "C:\inetpub\wwwroot\osTicket\setup" folder.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="clean up"/> </p>
 </p>
 <br />
 
 <p>
 Set the permissions of "C:\inetpub\wwwroot\osTicket\include\ost-config.php" to "Read" only. Right-click "ost-config.php" -> Properties -> Security -> Advanced -> Everyone -> Edit
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="set permissions"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="set permissions"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="set permissions"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="set permissions"/> </p>
 </p>
 <br />
 
 <p>
 Navigate to the help desk login page (http://localhost/osTicket/scp/login.php) and sign in using the username and password you created earlier.
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="help desk login page"/> </p>
 </p>
 <br />
 
 <p>
 Congratulations on completing part 1 of the osTicket lab! We have successfully installed the prerequisites and osTicket!
-<p align="center"><img src="blank" height="70%" width="70%" alt="blank"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="part 1 complete"/> </p>
 </p>
 <br />
